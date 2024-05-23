@@ -2,7 +2,7 @@
 #include<conio.h>
 
 void main() {
-    int arr[20], n, i, j, temp;
+    int arr[25], n, i, j, temp;
     clrscr();
     printf("Enter number of elements \n");
     scanf("%d", &n);
