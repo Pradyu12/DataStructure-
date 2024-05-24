@@ -7,8 +7,8 @@ void main() {
     printf("How many numbers of disk: ");
     scanf("%d", &n);
     move(n, 'A', 'B', 'C');
-    getch()
-}
+    getch();
+};
 void move(int n, char x, char y, char z) {
     if (n > 0) {
         move(n - 1, x, z, y);
