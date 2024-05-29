@@ -15,7 +15,7 @@ void main() {
     {
      for(j=0;j<n-1;j++)
      {
-      if(a[i]<a[i])
+      if(a[i]>a[j])
 {
 temp=a[i];
 a[i]=a[j];
